@@ -55,16 +55,27 @@ unit_test_results.txt
 TestResult.xml
 
 # Ignore Plugin Folders which are build by build
-/Facebook.Unity/Assets/Plugins/
+/UnitySDK/Assets/Plugins/
 
 # Ignore Current Facebook Settings
 FacebookSettings.asset*
 
-# Ignore androdi wrapper lib created by build scripts
+# Ignore android wrapper lib created by build scripts
 /facebook-android-wrapper/libs/
 
 # MD Plugins
-*.StyleCop
 *.StyleCop.meta
 StyleCop.Cache
 StyleCop.Cache.meta
+
+# OSX
+*.DS_Store
+
+# Temp file to show call stack
+*.stackdump
+
+# Ignore editor generated user prefs
+*.userprefs
+
+# Nuget packages
+/packages/
